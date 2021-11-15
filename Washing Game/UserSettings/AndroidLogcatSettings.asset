@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "HZAL1670CAJ90501441",
     "m_SelectedPackage": {
-        "deviceId": "HZAL1670CAJ90501441",
-        "name": "com.DefaultCompany.WashingGame",
-        "processId": 14761,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,12 @@
             "deviceId": "HZAL1670CAJ90501441",
             "name": "com.DefaultCompany.WashingGame",
             "processId": 14761,
+            "exited": true
+        },
+        {
+            "deviceId": "HZAL1670CAJ90501441",
+            "name": "com.android.launcher3",
+            "processId": 26883,
             "exited": false
         }
     ],
