@@ -15,7 +15,7 @@ public class Google_Ads : MonoBehaviour
 
     void Request_Ad()
     {
-        string Ad_ID = "ca-app-pub-5755293822993295~5777188320";
+        string Ad_ID = "ca-app-pub-5755293822993295/9618739726";
         
         if (ad != null)
             ad.Destroy();
