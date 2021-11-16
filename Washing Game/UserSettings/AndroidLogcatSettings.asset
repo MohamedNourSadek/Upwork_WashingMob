@@ -7,24 +7,7 @@
         "exited": false
     },
     "m_SelectedPriority": 0,
-<<<<<<< HEAD
-    "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "HZAL1670CAJ90501441",
-            "name": "com.DefaultCompany.WashingGame",
-            "processId": 14761,
-            "exited": true
-        },
-        {
-            "deviceId": "HZAL1670CAJ90501441",
-            "name": "com.android.launcher3",
-            "processId": 26883,
-            "exited": false
-        }
-    ],
-=======
     "m_KnownPackagesForSerialization": [],
->>>>>>> parent of 64762d4 (Finished Unity Ads)
     "m_Tags": {
         "m_Entries": [
             {

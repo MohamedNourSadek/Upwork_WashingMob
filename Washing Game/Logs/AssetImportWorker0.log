@@ -15,7 +15,7 @@ X:/Projects/Upwork/Washing Objects/Upwork_WashingMob/Washing Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51227
+52693
 Successfully changed project path to: X:/Projects/Upwork/Washing Objects/Upwork_WashingMob/Washing Game
 X:/Projects/Upwork/Washing Objects/Upwork_WashingMob/Washing Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ X:/Projects/Upwork/Washing Objects/Upwork_WashingMob/Washing Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 151.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,112 +63,108 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008169 seconds.
+Registered in 0.008849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.055 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (820ms)
-			LoadAssemblies (130ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (463ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013258 seconds.
+Registered in 0.014217 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image X:\Projects\Upwork\Washing Objects\Upwork_WashingMob\Washing Game\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image X:\Projects\Upwork\Washing Objects\Upwork_WashingMob\Washing Game\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path X:\Projects\Upwork\Washing Objects\Upwork_WashingMob\Washing Game\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <c183552e59b24622ab6b4273bc2ea328>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <c183552e59b24622ab6b4273bc2ea328>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <c183552e59b24622ab6b4273bc2ea328>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <1ff8de9752c54556a8f45c3ec566f8af>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <1ff8de9752c54556a8f45c3ec566f8af>:0 
-  at Google.ProjectSettings.Save () [0x00095] in Z:\tmp\tmp.cirhDnLU30\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:826 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.cirhDnLU30/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at Z:/tmp/tmp.cirhDnLU30/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:842)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at Z:/tmp/tmp.cirhDnLU30/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:484)
-Google.ProjectSettings:SetBool (string,bool) (at Z:/tmp/tmp.cirhDnLU30/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:496)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool)
-Google.IOSResolver:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Z:/tmp/tmp.cirhDnLU30/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 842)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  2.018 seconds
+- Completed reload, in  2.252 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2019ms)
-		BeginReloadAssembly (331ms)
+	ReloadAssembly (2253ms)
+		BeginReloadAssembly (373ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1502ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (504ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (645ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (718ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (434ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3407 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 118 unused Assets / (59.2 KB). Loaded Objects now: 3784.
-Memory consumption went from 118.9 MB to 118.9 MB.
-Total: 5.542500 ms (FindLiveObjects: 0.457400 ms CreateObjectMapping: 0.204800 ms MarkObjects: 4.711400 ms  DeleteObjects: 0.167400 ms)
+Memory consumption went from 118.8 MB to 118.8 MB.
+Total: 5.741000 ms (FindLiveObjects: 0.480400 ms CreateObjectMapping: 0.206800 ms MarkObjects: 4.727800 ms  DeleteObjects: 0.323400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (25.5 KB). Loaded Objects now: 3784.
+Memory consumption went from 52.6 MB to 52.6 MB.
+Total: 5.351500 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.186500 ms MarkObjects: 4.686900 ms  DeleteObjects: 0.058200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -182,61 +178,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5977.544083 seconds.
-  path: Assets/Plugins/iOS
-  artifactKey: Guid(4e62172abcc3cb949bc77039957e616c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/iOS using Guid(4e62172abcc3cb949bc77039957e616c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f3433d7a1e455333d758a83f875a5c') in 0.010741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Plugins/Android
-  artifactKey: Guid(38decb91367a8dc4d80bb6a16abfca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android using Guid(38decb91367a8dc4d80bb6a16abfca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a1a8e8e039b539b041d5547ada4e3') in 0.002426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(d0a12319563bf8c4989f0bc3b36c0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(d0a12319563bf8c4989f0bc3b36c0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f43f68039732f1f7e68d7092580b54') in 0.001309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.460349 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(f95366e8d492e5c47837c37e91549b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(f95366e8d492e5c47837c37e91549b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb0505675e34691debba8e285f0c060') in 0.001684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.360560 seconds.
-  path: Assets/Scripts/Unity Ads System
-  artifactKey: Guid(0306a3e6238aa3c4599e739aaf240a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Unity Ads System using Guid(0306a3e6238aa3c4599e739aaf240a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00313161a8579bd0b2bda06b1429d01') in 0.001774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.604983 seconds.
+  Time since last request: 11732.228228 seconds.
   path: Assets/Scripts/Level.prefab
   artifactKey: Guid(81432e1183caede46b27ebea439a7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level.prefab using Guid(81432e1183caede46b27ebea439a7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883268da471fae7cb795f435295e48ab') in 0.093913 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.858285 seconds.
-  path: Assets/Scripts/Unity Ads System/Ad_Invoke.cs
-  artifactKey: Guid(e7f3575ae5e3b0943be96f1d4dc8159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Unity Ads System/Ad_Invoke.cs using Guid(e7f3575ae5e3b0943be96f1d4dc8159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c13a88a04eb83bccdbf4132434c96a') in 0.065300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011228 seconds.
-  path: Assets/Scripts/Google Ads/Google_Ads.cs
-  artifactKey: Guid(4689e9efd62a4804caa548e5476153d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Google Ads/Google_Ads.cs using Guid(4689e9efd62a4804caa548e5476153d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021aa1629cf6e6a95808a5f14ca648d7') in 0.001236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000968 seconds.
-  path: Assets/Scripts/Test_Script.cs
-  artifactKey: Guid(03a026fa7e993a446a236920a0035f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Test_Script.cs using Guid(03a026fa7e993a446a236920a0035f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daed04ec12abb2f0b9baf7a5db599569') in 0.001186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Scripts/Unity Ads System/Unity_Ads.cs
-  artifactKey: Guid(4a9ba8a254149ee4280dd9af306cbde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Unity Ads System/Unity_Ads.cs using Guid(4a9ba8a254149ee4280dd9af306cbde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd301ca5646fa5f3a21ebfcd0954de85e') in 0.001236 seconds 
+Start importing Assets/Scripts/Level.prefab using Guid(81432e1183caede46b27ebea439a7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537173004ed5b7941051d9fd8ff12878') in 0.103160 seconds 
