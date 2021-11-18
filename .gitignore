@@ -2,6 +2,8 @@
 # Unity folders and files
 ###
 [Aa]ssets/AssetStoreTools*
+[Aa]ssets/Firebase*
+[Aa]ssets/Plugins*
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
@@ -39,3 +41,126 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+Washing Game/Assets/Firebase.meta
+Washing Game/Assets/Firebase/Editor.meta
+Washing Game/Assets/Firebase/Editor/AppDependencies.xml
+Washing Game/Assets/Firebase/Editor/AppDependencies.xml.meta
+Washing Game/Assets/Firebase/Editor/AuthDependencies.xml
+Washing Game/Assets/Firebase/Editor/AuthDependencies.xml.meta
+Washing Game/Assets/Firebase/Editor/DatabaseDependencies.xml
+Washing Game/Assets/Firebase/Editor/DatabaseDependencies.xml.meta
+Washing Game/Assets/Firebase/Editor/Firebase.Editor.dll
+Washing Game/Assets/Firebase/Editor/Firebase.Editor.dll.mdb
+Washing Game/Assets/Firebase/Editor/Firebase.Editor.dll.mdb.meta
+Washing Game/Assets/Firebase/Editor/Firebase.Editor.dll.meta
+Washing Game/Assets/Firebase/Editor/FirebaseAuth_version-8.6.1_manifest.txt
+Washing Game/Assets/Firebase/Editor/FirebaseAuth_version-8.6.1_manifest.txt.meta
+Washing Game/Assets/Firebase/Editor/FirebaseDatabase_version-8.6.1_manifest.txt
+Washing Game/Assets/Firebase/Editor/FirebaseDatabase_version-8.6.1_manifest.txt.meta
+Washing Game/Assets/Firebase/Editor/generate_xml_from_google_services_json.exe
+Washing Game/Assets/Firebase/Editor/generate_xml_from_google_services_json.exe.meta
+Washing Game/Assets/Firebase/Editor/generate_xml_from_google_services_json.py
+Washing Game/Assets/Firebase/Editor/generate_xml_from_google_services_json.py.meta
+Washing Game/Assets/Firebase/Editor/network_request.exe
+Washing Game/Assets/Firebase/Editor/network_request.exe.meta
+Washing Game/Assets/Firebase/Editor/network_request.py
+Washing Game/Assets/Firebase/Editor/network_request.py.meta
+Washing Game/Assets/Firebase/m2repository.meta
+Washing Game/Assets/Firebase/m2repository/com.meta
+Washing Game/Assets/Firebase/m2repository/com/google.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.pom.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.srcaar
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/8.6.1/firebase-app-unity-8.6.1.srcaar.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-app-unity/maven-metadata.xml.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.pom.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.srcaar
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/8.6.1/firebase-auth-unity-8.6.1.srcaar.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-auth-unity/maven-metadata.xml.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.pom.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.srcaar
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/8.6.1/firebase-database-unity-8.6.1.srcaar.meta
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/maven-metadata.xml
+Washing Game/Assets/Firebase/m2repository/com/google/firebase/firebase-database-unity/maven-metadata.xml.meta
+Washing Game/Assets/Firebase/Plugins.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.App.dll
+Washing Game/Assets/Firebase/Plugins/Firebase.App.dll.mdb
+Washing Game/Assets/Firebase/Plugins/Firebase.App.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.App.dll.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Auth.dll
+Washing Game/Assets/Firebase/Plugins/Firebase.Auth.dll.mdb
+Washing Game/Assets/Firebase/Plugins/Firebase.Auth.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Auth.dll.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Database.dll
+Washing Game/Assets/Firebase/Plugins/Firebase.Database.dll.mdb
+Washing Game/Assets/Firebase/Plugins/Firebase.Database.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Database.dll.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Platform.dll
+Washing Game/Assets/Firebase/Plugins/Firebase.Platform.dll.mdb
+Washing Game/Assets/Firebase/Plugins/Firebase.Platform.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.Platform.dll.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.TaskExtension.dll
+Washing Game/Assets/Firebase/Plugins/Firebase.TaskExtension.dll.mdb
+Washing Game/Assets/Firebase/Plugins/Firebase.TaskExtension.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/Firebase.TaskExtension.dll.meta
+Washing Game/Assets/Firebase/Plugins/Google.MiniJson.dll
+Washing Game/Assets/Firebase/Plugins/Google.MiniJson.dll.meta
+Washing Game/Assets/Firebase/Plugins/iOS.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.App.dll
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.App.dll.mdb
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.App.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.App.dll.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Auth.dll
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Auth.dll.mdb
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Auth.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Auth.dll.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Database.dll
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Database.dll.mdb
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Database.dll.mdb.meta
+Washing Game/Assets/Firebase/Plugins/iOS/Firebase.Database.dll.meta
+Washing Game/Assets/Firebase/Plugins/x86_64.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.bundle
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.bundle.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.dll
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.dll.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.so
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-8_6_1.so.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.bundle.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.dll
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.dll.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.bundle.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.dll
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.dll.meta
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.so
+Washing Game/Assets/Firebase/Plugins/x86_64/FirebaseCppDatabase.so.meta
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppDatabase.a.meta
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppDatabase.a
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppAuth.a.meta
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppAuth.a
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a.meta
+Washing Game/Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a
+Washing Game/Assets/Plugins/iOS/Firebase.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/res/values/google-services.xml.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/res/values/google-services.xml
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/res/values.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/res.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/project.properties.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/project.properties
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/AndroidManifest.xml.meta
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib/AndroidManifest.xml
+Washing Game/Assets/Plugins/Android/FirebaseApp.androidlib.meta

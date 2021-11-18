@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "517529475507",
+    "firebase_url": "https://washing-game-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "washing-game",
+    "storage_bucket": "washing-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517529475507:android:f06f8f09df21983e10d3c6",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.WashingGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517529475507-1b846mdhbullieuqtf1426r1uphnicde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS2U7dkKjvCwAeL133g2NNy1zRjFVQfvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517529475507-1b846mdhbullieuqtf1426r1uphnicde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
