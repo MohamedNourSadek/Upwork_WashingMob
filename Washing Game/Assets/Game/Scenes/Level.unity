@@ -5406,6 +5406,15 @@ MonoBehaviour:
   - LevelObject: {fileID: 8990450981227677804, guid: 57ccec0a38b0bf2488382f9d234d26b9,
       type: 3}
     MaxScore: 340
+  - LevelObject: {fileID: 459668926555295917, guid: 1d8361a93f6c447428ed6382acbc96d6,
+      type: 3}
+    MaxScore: 340
+  - LevelObject: {fileID: 4903708490278558980, guid: df4cfd9b082189540b6a39747ab4fe02,
+      type: 3}
+    MaxScore: 330
+  - LevelObject: {fileID: 5456910472606006690, guid: a8d16aad6ee8a394389004f5d767f988,
+      type: 3}
+    MaxScore: 260
   ParentLevelObject: {fileID: 1623513189}
   Score: {fileID: 1637483214}
   ad: {fileID: 1908122460}
