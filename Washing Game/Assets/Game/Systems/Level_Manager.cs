@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Level_Manager : MonoBehaviour
@@ -7,6 +8,7 @@ public class Level_Manager : MonoBehaviour
     [SerializeField] int currentLevel = 0;
     [SerializeField] List<Level_data> Levels;
     [SerializeField] Transform ParentLevelObject;
+    [SerializeField] Slider Score;
     [SerializeField] Ads_Manager ad;
 
 
@@ -26,6 +28,19 @@ public class Level_Manager : MonoBehaviour
             Destroy(currentobject.gameObject);
 
         currentobject = Instantiate(Levels[currentLevel].LevelObject, ParentLevelObject);
+        Score.maxValue = Levels[currentLevel].MaxScore;
+
+        var Dirt = currentobject.GetComponentsInChildren<Dirt_Object>();
+        foreach (Dirt_Object d in Dirt)
+            d.man = this;
+    }
+
+    public void Add_Score(float addedScore)
+    {
+        Score.value += addedScore;
+
+        if (Score.value == Score.maxValue)
+            Next_level();
     }
 
     public void Next_level()
@@ -51,5 +66,6 @@ public class Level_Manager : MonoBehaviour
 public class Level_data
 {
     [SerializeField] public GameObject LevelObject;
+    [SerializeField] public float MaxScore;
 }
 

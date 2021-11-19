@@ -6,12 +6,11 @@ using UnityEngine.VFX;
 public class Player_Controller : MonoBehaviour
 {
     [SerializeField] float Depth = 6;
-    [SerializeField] float Seconds_forWaterObject = 2f;
 
     [Header("References")]
     [SerializeField] GameObject testobject;
     [SerializeField] GameObject WaterHoes;
-    [SerializeField] VisualEffect waterVfx;
+    [SerializeField] ParticleSystem waterVfx;
     [SerializeField] GameObject waterOjbect;
     Camera cam;
 
@@ -20,16 +19,13 @@ public class Player_Controller : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
-    float i;
 
     void FixedUpdate()
     {
         if(Input.touchCount > 0)
         {
-            i++; //waiting for 4 seconds
-            if(i > (Seconds_forWaterObject/Time.fixedDeltaTime))
-                waterOjbect.SetActive(true);
-            waterVfx.SetBool("Working", true);
+            waterOjbect.SetActive(true);
+            waterVfx.Play();
 
 
             Touch t = Input.GetTouch(0);
@@ -40,8 +36,7 @@ public class Player_Controller : MonoBehaviour
         else
         {
             waterOjbect.SetActive(false);
-            waterVfx.SetBool("Working", false);
-            i = 0;
+            waterVfx.Stop();
         }
     }
 }
