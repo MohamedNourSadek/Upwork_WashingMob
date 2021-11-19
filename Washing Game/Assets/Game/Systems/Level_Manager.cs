@@ -10,7 +10,8 @@ public class Level_Manager : MonoBehaviour
     [SerializeField] Transform ParentLevelObject;
     [SerializeField] Slider Score;
     [SerializeField] Ads_Manager ad;
-
+    [SerializeField] AudioClip level_complete;
+    [SerializeField] Text level;
 
     GameObject currentobject;
     string save_var = "level";
@@ -23,6 +24,7 @@ public class Level_Manager : MonoBehaviour
     void Load_level()
     {
         currentLevel = PlayerPrefs.GetInt(save_var);
+        level.text = "Level " + (currentLevel + 1).ToString();
 
         if (currentobject)
             Destroy(currentobject.gameObject);
@@ -49,6 +51,8 @@ public class Level_Manager : MonoBehaviour
         {
             currentLevel++;
             PlayerPrefs.SetInt(save_var, currentLevel);
+            Score.value = 0;
+            AudioSource.PlayClipAtPoint(level_complete, Camera.main.transform.position);
 
             Load_level();
             ad.ShowAd();
