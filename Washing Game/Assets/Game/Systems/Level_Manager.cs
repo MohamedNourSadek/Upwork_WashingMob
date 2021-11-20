@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class Level_Manager : MonoBehaviour
     [SerializeField] Ads_Manager ad;
     [SerializeField] AudioClip level_complete;
     [SerializeField] Text level;
+    [SerializeField] Image Level_transition;
 
     GameObject currentobject;
     string save_var = "level";
@@ -21,8 +23,10 @@ public class Level_Manager : MonoBehaviour
         Load_level();
     }
 
-    void Load_level()
+    public void Load_level()
     {
+        Level_transition.gameObject.SetActive(false);
+
         currentLevel = PlayerPrefs.GetInt(save_var);
         level.text = "Level " + (currentLevel + 1).ToString();
 
@@ -45,6 +49,12 @@ public class Level_Manager : MonoBehaviour
             Next_level();
     }
 
+    IEnumerator ShowAd_Delayed()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        ad.ShowAd();
+    }
+
     public void Next_level()
     {
         if(currentLevel < Levels.Count - 1)
@@ -54,8 +64,8 @@ public class Level_Manager : MonoBehaviour
             Score.value = 0;
             AudioSource.PlayClipAtPoint(level_complete, Camera.main.transform.position);
 
-            Load_level();
-            ad.ShowAd();
+            Level_transition.gameObject.SetActive(true);
+            StartCoroutine(ShowAd_Delayed());
         }
         else
         {
