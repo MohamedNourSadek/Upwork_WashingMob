@@ -14,6 +14,7 @@ public class Level_Manager : MonoBehaviour
     [SerializeField] AudioClip level_complete;
     [SerializeField] Text level;
     [SerializeField] Image Level_transition;
+    [SerializeField] Player_Controller player;
 
     GameObject currentobject;
     string save_var = "level";
@@ -26,6 +27,7 @@ public class Level_Manager : MonoBehaviour
     public void Load_level()
     {
         Level_transition.gameObject.SetActive(false);
+        player.playing = true;
 
         currentLevel = PlayerPrefs.GetInt(save_var);
         level.text = "Level " + (currentLevel + 1).ToString();
@@ -57,7 +59,9 @@ public class Level_Manager : MonoBehaviour
 
     public void Next_level()
     {
-        if(currentLevel < Levels.Count - 1)
+        player.playing = false;
+
+        if (currentLevel < Levels.Count - 1)
         {
             currentLevel++;
             PlayerPrefs.SetInt(save_var, currentLevel);
@@ -72,6 +76,7 @@ public class Level_Manager : MonoBehaviour
             //loading End game screen
             SceneManager.LoadScene(2);
         }
+
     }
 }
 

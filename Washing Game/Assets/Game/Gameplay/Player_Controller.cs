@@ -16,6 +16,8 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] GameObject waterOjbect;
     Camera cam;
     AudioSource water_Audio;
+    public bool playing = true;
+
 
     private void Awake()
     {
@@ -26,7 +28,7 @@ public class Player_Controller : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(Input.touchCount > 0)
+        if(Input.touchCount > 0 && playing)
         {
             waterOjbect.SetActive(true);
             waterVfx.Play();
@@ -36,8 +38,6 @@ public class Player_Controller : MonoBehaviour
             Vector3 point = cam.ScreenToWorldPoint(new Vector3(t.position.x, t.position.y, Depth));
             testobject.transform.position = point;
             WaterHoes.transform.LookAt(point);
-
-
         }
         else
         {

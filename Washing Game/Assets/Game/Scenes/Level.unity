@@ -5393,7 +5393,7 @@ MonoBehaviour:
   Levels:
   - LevelObject: {fileID: 6335542927617814531, guid: 4bf2447038249514c98d2759255fa2c6,
       type: 3}
-    MaxScore: 35
+    MaxScore: 30
   - LevelObject: {fileID: 883451673675105792, guid: b07ebcc410583634380ee6983f3a4b91,
       type: 3}
     MaxScore: 185
@@ -5421,6 +5421,7 @@ MonoBehaviour:
   level_complete: {fileID: 8300000, guid: 1ce0b143c65800f42a74cd008ba06b20, type: 3}
   level: {fileID: 1907479916}
   Level_transition: {fileID: 1316010439}
+  player: {fileID: 963194229}
 --- !u!1 &517408065
 GameObject:
   m_ObjectHideFlags: 0
@@ -5838,6 +5839,7 @@ MonoBehaviour:
   WaterHoes: {fileID: 1512076058}
   waterVfx: {fileID: 169245234}
   waterOjbect: {fileID: 1719595595}
+  playing: 1
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
